@@ -1,0 +1,40 @@
+.file-upload-area {
+  border: 2px dashed #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.file-upload-area:hover,
+.file-upload-area.drag-active {
+  border-color: #007bff;
+  background-color: rgba(0, 123, 255, 0.05);
+}
+
+.file-input {
+  display: none;
+}
+
+.selected-file {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #f8f9fa;
+}
+
+.download-template-btn {
+  margin-bottom: 10px;
+  transition: all 0.3s ease;
+}
+
+.download-template-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.upload-results {
+  max-height: 600px;
+  overflow-y: auto;
+}

@@ -1,0 +1,138 @@
+/* Glassmorphism UI Styles */
+
+/* Base glass effect */
+.glass-effect {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+  border-radius: 10px;
+}
+
+/* Glass card */
+.card.glass-card {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+  border-radius: 10px;
+}
+
+/* Glass navbar */
+.navbar.glass-nav {
+  background: rgba(255, 255, 255, 0.7) !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 4px 12px 0 rgba(31, 38, 135, 0.15);
+}
+
+/* Glass modal */
+.modal-content.glass-modal {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+}
+
+/* Glass table */
+.table-container.glass-table {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.glass-table .table {
+  background: transparent;
+  margin-bottom: 0;
+}
+
+.glass-table .table thead th {
+  background: rgba(255, 255, 255, 0.4);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.glass-table .table tbody tr:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* Glass buttons */
+.btn.glass-btn {
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.btn.glass-btn:hover {
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.btn.glass-btn-primary {
+  background: rgba(13, 110, 253, 0.7);
+  color: white;
+}
+
+.btn.glass-btn-primary:hover {
+  background: rgba(13, 110, 253, 0.8);
+}
+
+.btn.glass-btn-danger {
+  background: rgba(220, 53, 69, 0.7);
+  color: white;
+}
+
+.btn.glass-btn-danger:hover {
+  background: rgba(220, 53, 69, 0.8);
+}
+
+.btn.glass-btn-success {
+  background: rgba(25, 135, 84, 0.7);
+  color: white;
+}
+
+.btn.glass-btn-success:hover {
+  background: rgba(25, 135, 84, 0.8);
+}
+
+/* Glass inputs */
+.form-control.glass-input {
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.form-control.glass-input:focus {
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 10px rgba(31, 38, 135, 0.15);
+}
+
+/* Glass badges */
+.badge.glass-badge {
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+/* Background gradient for app */
+.glass-bg {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  min-height: 100vh;
+}
+
+/* Neon highlights */
+.glass-neon-highlight {
+  box-shadow: 0 0 15px rgba(66, 133, 244, 0.6);
+}

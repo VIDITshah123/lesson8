@@ -1,0 +1,4 @@
+firstName,lastName,email,password,roles,isActive
+User,One,user1@employdex.com,Password@123,User,true
+User,Two,user2@employdex.com,Password@123,Admin,true
+User,Three,user3@employdex.com,Password@123,full_access,true

@@ -1,0 +1,38 @@
+{
+  "name": "employdex-base-platform",
+  "version": "0.1.0",
+  "description": "EmployDEX Base Platform with user management and role-based access control",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm start",
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "employdex",
+    "user-management",
+    "role-management",
+    "express",
+    "react",
+    "sqlite"
+  ],
+  "author": "EmployDEX Consulting Services",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.0.1"
+  },
+  "dependencies": {
+    "axios": "^1.10.0",
+    "bcryptjs": "^3.0.2",
+    "csv-parser": "^3.2.0",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "form-data": "^4.0.3",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.0.1",
+    "sqlite3": "^5.1.7",
+    "uuid": "^11.1.0"
+  }
+}

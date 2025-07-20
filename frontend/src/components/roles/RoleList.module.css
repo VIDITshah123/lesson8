@@ -1,0 +1,42 @@
+.roleNameCell {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.roleName {
+  font-weight: 600;
+  color: #212529;
+}
+.editLink {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  color: #0d6efd;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.2s;
+}
+.editLink:hover {
+  color: #0a58ca;
+  text-decoration: underline;
+}
+.permissionBadges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+.badgeMore {
+  background: #e3f2fd;
+  color: #1976d2;
+  font-weight: 500;
+}
+.actionButtons {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-start;
+  min-width: 120px;
+  align-items: center;
+}
+.table td, .table th {
+  vertical-align: middle;
+}

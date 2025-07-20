@@ -1,0 +1,2 @@
+use @create-requirements.md and build a PRD for the project. Build a base project which has register and login capabilities. It should have a dashboard and it should have a role management capability. provide a front end where these capabilities can be managed for the backend.  use SQLite as database. frontend should be built on react using npm create-react-app app-name, and Api should be built on express JS. Store the PRD in base V1.MD. create the UI using glass morphism app design. 
+

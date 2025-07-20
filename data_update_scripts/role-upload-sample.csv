@@ -1,0 +1,4 @@
+name,description,permissions
+r1,View-only role for users and roles,user_view;role_view
+r2,Basic viewer role,user_view;role_view
+r3,Limited access viewer,user_view;role_view
