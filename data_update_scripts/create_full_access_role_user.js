@@ -8,7 +8,7 @@ const path = require('path');
 const fs = require('fs');
 
 // Connect to SQLite database
-const dbPath = path.join(__dirname, 'db', 'employdex-base.db');
+const dbPath = path.join(__dirname, 'db', 'rsvp-base.db');
 
 // Check if database exists
 if (!fs.existsSync(dbPath)) {

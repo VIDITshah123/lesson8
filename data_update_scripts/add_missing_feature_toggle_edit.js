@@ -7,7 +7,7 @@ const sqlite3 = require('sqlite3').verbose();
 const path = require('path');
 
 // Database path
-const dbPath = path.join(__dirname, '..', 'db', 'employdex-base.db');
+const dbPath = path.join(__dirname, '..', 'db', 'rsvp-base.db');
 
 // Connect to the database with extended timeout and busy handling
 const db = new sqlite3.Database(dbPath, sqlite3.OPEN_READWRITE, (err) => {

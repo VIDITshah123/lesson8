@@ -42,7 +42,7 @@ This document outlines the detailed tasks for implementing the EmployDEX Base Pl
 ### Notes
 
 - Backend API tests can be run with `npm test` in the backend directory
-- Use the development database (`employdex-base.db`) for testing, not the production database
+- Use the development database (`rsvp-base.db`) for testing, not the production database
 - The virtual environment for Python (if used) is available at `/Users/alokk/EmployDEX/venv`
 - Node modules for React are at `/Users/alokk/EmployDEX/node_modules`
 - Default admin credentials are admin/admin

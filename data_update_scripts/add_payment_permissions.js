@@ -6,7 +6,7 @@
 const sqlite3 = require('sqlite3').verbose();
 
 // Connect to the database
-const db = new sqlite3.Database('./db/employdex-base.db', (err) => {
+const db = new sqlite3.Database('./db/rsvp-base.db', (err) => {
   if (err) {
     console.error('Error connecting to the database:', err.message);
     process.exit(1);

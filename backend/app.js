@@ -39,7 +39,7 @@ if (!fs.existsSync(uploadDir)) {
 }
 
 // Database initialization
-const dbPath = path.join(__dirname, '..', 'db', 'employdex-base.db');
+const dbPath = path.join(__dirname, '..', 'db', 'rsvp-base.db');
 const dbExists = fs.existsSync(dbPath);
 
 // Create db directory if it doesn't exist

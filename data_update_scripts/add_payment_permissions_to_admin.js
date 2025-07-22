@@ -9,7 +9,7 @@ const sqlite3 = require('sqlite3').verbose();
 const path = require('path');
 
 // Connect to the database
-const dbPath = path.join(__dirname, '..', 'db', 'employdex-base.db');
+const dbPath = path.join(__dirname, '..', 'db', 'rsvp-base.db');
 console.log(`Connecting to database at: ${dbPath}`);
 const db = new sqlite3.Database(dbPath, (err) => {
   if (err) {
